@@ -1,6 +1,8 @@
 Hello reader,
 
-This repository displays a manually programmed version of the "ls" function from the UNIX file system. myls allows the user to navigate file paths with some options including -i, -l, -R and any combination of the above. 
+This repository displays a manually programmed version of the "ls" function from the UNIX file system. myls allows the user to navigate file paths with some options including -i, -l, -R and any combination of the above.
+
+
 
 myls.c:
 	This is the main file.
@@ -27,3 +29,5 @@ Arguments:
 	other file directories it finds. It will then display all info specified by the other
 	arguments included.
 
+
+This project was created on a time constraint and can definitely be improved upon as there is some bad code convention, but overall I appreciate the tools that were learned from participating in this assignment.
