@@ -1,0 +1,20 @@
+Hello reader,
+
+This repository displays a manually programmed version of the "ls" function from the UNIX file system. myls allows the user to navigate file paths with some options including -i, -l, -R and any combination of the above. 
+
+the command "make" compiles myls.c
+
+Arguments:
+
+./myls -i 
+	This will present all files along with their i-nodes.
+	
+./myls -l 
+	This will present all files along with a list of info including
+	date created, file permissions, userID, and groupID.
+	
+./myls -R
+	This will run a recursive search through the current file directory as well as any 
+	other file directories it finds. It will then display all info specified by the other
+	arguments included.
+
