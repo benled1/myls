@@ -2,6 +2,15 @@ Hello reader,
 
 This repository displays a manually programmed version of the "ls" function from the UNIX file system. myls allows the user to navigate file paths with some options including -i, -l, -R and any combination of the above. 
 
+myls.c:
+	This is the main file.
+	
+mylsfunctions.c:
+	This implements all functions called in the main file.
+	
+mylsfunctions.h:
+	This is the function header file.
+
 the command "make" compiles myls.c
 
 Arguments:
