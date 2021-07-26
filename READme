@@ -1,8 +1,11 @@
 Hello reader,
 
-This repository displays a manually programmed version of the "ls" function from the UNIX file system. myls allows the user to navigate file paths with some options including -i, -l, -R and any combination of the above.
+This repository displays a manually programmed version of the "ls" function from the UNIX file system. 
+The ls function in the the UNIX file system is a function that allows the user to display file information using the command line. The version
+of ls that I have programmed here is called "myls". This version of the function implements the default functionality of ls, as well as different 
+command line arguments that can be utilized to display more detailed information.
 
-
+## Files
 
 myls.c:
 	This is the main file.
