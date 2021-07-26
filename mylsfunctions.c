@@ -18,64 +18,7 @@ struct group *groupID;
 struct tm timeStruct;
 char mtime[100];
 
-//find the number of digits in a given number
-int findDigits(int Number)
-{
-    int Length;
-        if(Number <= 9999999999)
-        {
-            if(Number <= 999999999)
-            {
-                if(Number <= 99999999)
-                {
-                    if(Number <= 9999999)
-                    {
-                        if(Number <= 999999)
-                        {
-                            if(Number <= 99999)
-                            {
-                                if(Number <= 9999)
-                                {
-                                    if(Number <= 999)
-                                    {
-                                        if(Number <= 99)
-                                        {
-                                            if(Number <= 9)
-                                            {
-                                                
-                                                Length = 1;
-                                                return Length;
-                                            }
-                                            Length = 2;
-                                            return Length;
-                                        }
-                                        Length = 3;
-                                        return Length;
-                                    }
-                                    Length = 4;
-                                    return Length;
-                                }
-                                Length = 5;
-                                return Length;
-                            }
-                            Length = 6;
-                            return Length;
-                        }
-                        Length = 7;
-                    return Length;
-                    }
-                    Length = 8;
-                    return Length;
-                }
-                Length = 9;
-                return Length;
-            }
-            Length = 10;
-            return Length;
-        }
-        Length = 11;
-        return Length;
-}
+
 
 
 //find the maxLengths of all fields and then return a struct containing them
@@ -459,6 +402,65 @@ void argumentR(struct array_name *sortedNames,int count,char * passedfilepath,
    
     free(tempfilepath);
     return;
+}
+
+//find the number of digits in a given number
+int findDigits(int Number)
+{
+    int Length;
+        if(Number <= 9999999999)
+        {
+            if(Number <= 999999999)
+            {
+                if(Number <= 99999999)
+                {
+                    if(Number <= 9999999)
+                    {
+                        if(Number <= 999999)
+                        {
+                            if(Number <= 99999)
+                            {
+                                if(Number <= 9999)
+                                {
+                                    if(Number <= 999)
+                                    {
+                                        if(Number <= 99)
+                                        {
+                                            if(Number <= 9)
+                                            {
+                                                
+                                                Length = 1;
+                                                return Length;
+                                            }
+                                            Length = 2;
+                                            return Length;
+                                        }
+                                        Length = 3;
+                                        return Length;
+                                    }
+                                    Length = 4;
+                                    return Length;
+                                }
+                                Length = 5;
+                                return Length;
+                            }
+                            Length = 6;
+                            return Length;
+                        }
+                        Length = 7;
+                    return Length;
+                    }
+                    Length = 8;
+                    return Length;
+                }
+                Length = 9;
+                return Length;
+            }
+            Length = 10;
+            return Length;
+        }
+        Length = 11;
+        return Length;
 }
 
 
