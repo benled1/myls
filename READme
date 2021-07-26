@@ -8,7 +8,7 @@ command line arguments that can be utilized to display more detailed information
 ##Files
 
 myls.c:
-	This is the main file.
+	This is the 
 	
 mylsfunctions.c:
 	This implements all functions called in the main file.
