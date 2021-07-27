@@ -34,6 +34,11 @@ The command "make" compiles myls.c with all necessary dependencies.
 
 Running the code with no command line arguments will result in simply displaying the files and directories within the current directory. This is nearly identical to running the native "ls" command. 
 
+Running this command on the test directory produces the following results:
+
+![image](https://user-images.githubusercontent.com/55040326/127198124-4d89d4b7-d9ba-434c-828c-e94f8e54b89e.png)
+
+
 
 
 ./myls -i 
