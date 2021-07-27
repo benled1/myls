@@ -5,7 +5,7 @@ The ls function in the the UNIX file system is a function that allows the user t
 of ls that I have programmed here is called "myls". This version of the function implements the default functionality of ls, as well as different 
 command line arguments that can be utilized to display more detailed information.
 
-All output examples are run on a Test directory with the following structure:
+All output examples are run on a test directory with the following structure:
 
 ![image](https://user-images.githubusercontent.com/55040326/127197820-f8083528-1798-4206-9c20-5d8ffad23370.png)
 
