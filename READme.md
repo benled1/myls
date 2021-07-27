@@ -45,12 +45,25 @@ Running this command on the test directory produces the following results:
 
 
 
-./myls -i Test
-	This will present all files along with their i-nodes.
+### ./myls -i Test:
+
+This will present all files the same as the no argument case except it will add the i-node to be displayed alongside the filename.
+
+Running this command on the test directory produces the following results:
+
+![image](https://user-images.githubusercontent.com/55040326/127201650-7fa82401-0796-48df-87cf-a3ba240fc95f.png)
+
+
 	
-./myls -l 
-	This will present all files along with a list of info including
-	date created, file permissions, userID, and groupID.
+### ./myls -l Test:
+This will present all files the same as the no argument case, along with a list of info including date created, file permissions, userID, and groupID.
+
+Running this command on the test directory produces the following results:
+
+![image](https://user-images.githubusercontent.com/55040326/127201834-bc4687c1-1153-4941-b08a-74e942214c60.png)
+
+
+
 	
 ./myls -R
 	This will run a recursive search through the current file directory as well as any 
