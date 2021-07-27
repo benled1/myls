@@ -18,7 +18,6 @@ mylsfunctions.h:
 	This is the function header file for mylsfunctions.c.
 	
 makefile:
-	
 	The command "make" compiles myls.c with all necessary dependencies.
 
 ##Arguments:
