@@ -29,8 +29,12 @@ This is the function header file for mylsfunctions.c.
 The command "make" compiles myls.c with all necessary dependencies.
 
 ## Possible Command Line Arguments
+There are two types of command line arguments that can be passed to the myls function. The first type is the argument indicates the root directory that needs to be printed. 
+The second type of argument indicates in which way the information about that directory will be printed.
 
-### ./myls (no arguments):
+This second type of argument is a combination of the three letters i,l, and R. Each of these letters indicate something about how the file will be displayed. They will be explained further below.
+
+### ./myls (no arguments) Test:
 
 Running the code with no command line arguments will result in simply displaying the files and directories within the current directory. This is nearly identical to running the native "ls" command. 
 
@@ -41,7 +45,7 @@ Running this command on the test directory produces the following results:
 
 
 
-./myls -i 
+./myls -i Test
 	This will present all files along with their i-nodes.
 	
 ./myls -l 
