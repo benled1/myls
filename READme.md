@@ -8,17 +8,21 @@ command line arguments that can be utilized to display more detailed information
 ## Files
 
 ### myls.c:
-	This is the file which hosts the main function. This file is responsible for parsing through the command line arguments and controlling the work flow.
+
+This is the file which hosts the main function. This file is responsible for parsing through the command line arguments and controlling the work flow.
 	
-mylsfunctions.c:
-	This file hosts the functions which are called in main. The important functions in this file are those that implement each command line argument 
-	(All possible arguments are referenced below).
+### mylsfunctions.c:
+
+This file hosts the functions which are called in main. The important functions in this file are those that implement each command line argument 
+(All possible arguments are referenced below).
+
+### mylsfunctions.h:
+
+This is the function header file for mylsfunctions.c.
 	
-mylsfunctions.h:
-	This is the function header file for mylsfunctions.c.
-	
-makefile:
-	The command "make" compiles myls.c with all necessary dependencies.
+### makefile:
+
+The command "make" compiles myls.c with all necessary dependencies.
 
 ## Possible Command Line Arguments
 
