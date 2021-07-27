@@ -20,7 +20,10 @@ mylsfunctions.h:
 makefile:
 	The command "make" compiles myls.c with all necessary dependencies.
 
-## Arguments
+## Possible Command Line Arguments
+
+### ./myls (no arguments)
+	Running the code with no command line arguments will result in simply displaying the files and directories within the current directory. This is nearly identical to running the native "ls" command.
 
 ./myls -i 
 	This will present all files along with their i-nodes.
