@@ -65,10 +65,23 @@ Running this command on the test directory produces the following results:
 
 
 	
-./myls -R
-	This will run a recursive search through the current file directory as well as any 
-	other file directories it finds. It will then display all info specified by the other
-	arguments included.
+### ./myls -R Test:
+
+This will run a recursive search through the current file directory as well as any other file directories it finds. It will then display all info specified by the other
+arguments.
+
+Running this command on the test directory produces the following results:
+
+![image](https://user-images.githubusercontent.com/55040326/127202189-ad8b1965-65c2-4fd6-bb8d-ee0d49916ec3.png)
+
+### ./myls -ilR Test:
+
+As mentioned above, the command can be run with any combination of the previous three arguments.
+
+Running this command on the test directory produces the following results:
+
+![image](https://user-images.githubusercontent.com/55040326/127202397-36d81c45-009b-4587-8acc-cb70076f5d7e.png)
 
 
-This project was created on a time constraint and can definitely be improved upon as there is some bad code convention, but overall I appreciate the tools that were learned from participating in this assignment.
+Thanks for reading through my project. Feel free to check out the source code if you're interested.
+
