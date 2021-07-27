@@ -5,7 +5,7 @@ The ls function in the the UNIX file system is a function that allows the user t
 of ls that I have programmed here is called "myls". This version of the function implements the default functionality of ls, as well as different 
 command line arguments that can be utilized to display more detailed information.
 
-#Files
+## Files
 
 myls.c:
 	This is the file which hosts the main function. This file is responsible for parsing through the command line arguments and controlling the work flow.
@@ -20,7 +20,7 @@ mylsfunctions.h:
 makefile:
 	The command "make" compiles myls.c with all necessary dependencies.
 
-##Arguments:
+## Arguments
 
 ./myls -i 
 	This will present all files along with their i-nodes.
